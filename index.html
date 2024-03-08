@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <!--------------------------FAVICON ------------------------------->
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 
-     <!-------------------------REMIX ICONS---------------------------->
-     <link
-     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-------------------------REMIX ICONS---------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
-      <!------------------------CSS------------------------------------>
-      <link rel="stylesheet" href="./assets/css/style.css">
+    <!------------------------CSS------------------------------------>
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-      <title>Responsive plants website</title>
+    <title>Responsive plants website</title>
 </head>
+
 <body>
 
     <!-----------------------HEADER----------------------------------->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <i class="ri-leaf-line nav__logo-icon"></i>Plantex               
+                <i class="ri-leaf-line nav__logo-icon"></i>Plantex
             </a>
 
             <div class="nav__menu show-menu" id="nav-menu">
@@ -42,11 +43,11 @@
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">Contact Us</a>
                     </li>
-                </ul>  
-                
+                </ul>
+
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
-                </div>               
+                </div>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
@@ -56,7 +57,7 @@
     </header>
 
     <main class="main">
-    <!-----------------------HOME----------------------------------->
+        <!-----------------------HOME----------------------------------->
         <section class="home" id="home">
             <div class="home__container container grid">
                 <img src="./assets/img/home.png" alt="" class="home__img">
@@ -91,7 +92,7 @@
                 </div>
             </div>
         </section>
-    <!-----------------------ABOUT----------------------------------->
+        <!-----------------------ABOUT----------------------------------->
         <section class="about section container" id="about">
             <div class="about__container grid">
                 <img src="./assets/img/about.png" alt="" class="about__img">
@@ -102,7 +103,7 @@
                     </h2>
 
                     <p class="about__description">
-                        We have over 4000+ unbiased reviews and our customers rust 
+                        We have over 4000+ unbiased reviews and our customers rust
                         our plant process and delivery sevice every time.
                     </p>
 
@@ -132,7 +133,7 @@
             </div>
         </section>
 
-    <!-----------------------STEPS----------------------------------->
+        <!-----------------------STEPS----------------------------------->
         <section class="steps section container">
             <div class="steps__bg">
                 <h2 class="section__title-center steps__title">
@@ -148,25 +149,127 @@
                     <div class="steps__card">
                         <div class="steps__card-number">02</div>
                         <h3 class="steps__card-title">Place an order</h3>
-                        <p class="steps__card-description">Once your order is set, we move to the next step which is the shipping</p>
+                        <p class="steps__card-description">Once your order is set, we move to the next step which is the
+                            shipping</p>
                     </div>
                     <div class="steps__card">
                         <div class="steps__card-number">03</div>
                         <h3 class="steps__card-title">Get plants delivered</h3>
-                        <p class="steps__card-description">Our delivery process is easy, you recieve the plant direct to your door</p>
+                        <p class="steps__card-description">Our delivery process is easy, you recieve the plant direct to
+                            your door</p>
                     </div>
                 </div>
             </div>
         </section>
 
+
+        <!-----------------------PRODUCTS----------------------------------->
+        <section class="product section container" id="products">
+            <h2 class="section__title-center">
+                Check out our <br> products
+            </h2>
+
+            <p class="product-description">
+                Here are some selected plants from our showroom, oil are in excellent 
+                shape and has a long life span. Buy and enjoy best quality.
+            </p>
+
+            <div class="product__container grid">
+                <!--<article> tag specifies independent, self-contained content-->
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product1.png" alt="" class="product__img">
+                    <h3 class="product__title">Cacti Plant</h3>
+                    <span class="product__price">$19.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product2.png" alt="" class="product__img">
+                    <h3 class="product__title">Cactus Plant</h3>
+                    <span class="product__price">$11.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product3.png" alt="" class="product__img">
+                    <h3 class="product__title">Aloe Vera Plant</h3>
+                    <span class="product__price">$7.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product4.png" alt="" class="product__img">
+                    <h3 class="product__title">Succulent Plant</h3>
+                    <span class="product__price">$5.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product5.png" alt="" class="product__img">
+                    <h3 class="product__title">Succulent Plant</h3>
+                    <span class="product__price">$10.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/product6.png" alt="" class="product__img">
+                    <h3 class="product__title">Green Plant</h3>
+                    <span class="product__price">$8.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-4-line"></i>
+                    </button>
+                    
+                </article>
+            </div>
+        </section>
+
+        <!------------------------QUESTIONS--------------------------------->
+        <section class="questions section" id="faqs">
+
+        </section>
+
+        <!------------------------CONTACT---------------------------------->
+        <section class="contact section container" id="contact">
+
+        </section>
     </main>
+
 
 
     <!-----------------------FOOTER----------------------------------->
     <footer class="footer section">
 
     </footer>
-    
+
     <!-----------------------SCROLL UP----------------------------------->
 
 
@@ -178,4 +281,5 @@
     <!-----------------------MAIN JS----------------------------------->
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
