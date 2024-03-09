@@ -76,10 +76,33 @@ const toggleItem = (item) => {
   item based on its state.*/
 }
 
-/*====================CHANGE BACKGROUND===================*/
-
-
 /*====================SCROLL SECTIONS ACTIVE LINK===================*/
+const sections = document.querySelectorAll('section[id]')
 
+function scrollActive(){
+  /* declares a constant variable named scrollY and assigns it the value of the vertical 
+  scroll position of the window. */
+    const scrollY = window.scrollY;
+
+    sections.forEach(current =>{
+        const sectionHeight = current.offsetHeight,
+              sectionTop = current.offsetTop - 58,
+              sectionId = current.getAttribute('id')
+
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+        }else{
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+        }
+    })
+}
+window.addEventListener('scroll', scrollActive)
 
 /*====================SHOW SCROLL TOP===================*/
+
+
+/*====================DARK LIGHT THEME===================*/
+
+
+/*====================SCROLL REVEAL ANIMATION===================*/
+
